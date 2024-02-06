@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="Shoes.Nike">
+        <methods>
+          <include name="nike"/>
+        </methods>
+      </class> <!-- Shoes.Nike -->
+      <class name="Shoes.Puma">
+        <methods>
+          <include name="puma"/>
+        </methods>
+      </class> <!-- Shoes.Puma -->
+      <class name="Shoes.Reebok">
+        <methods>
+          <include name="reebok"/>
+        </methods>
+      </class> <!-- Shoes.Reebok -->
+      <class name="Bikes.TVS">
+        <methods>
+          <include name="tvs"/>
+        </methods>
+      </class> <!-- Bikes.TVS -->
+      <class name="Bikes.RoyalEnfield">
+        <methods>
+          <include name="royalEnfield"/>
+        </methods>
+      </class> <!-- Bikes.RoyalEnfield -->
+      <class name="Shoes.Fila">
+        <methods>
+          <include name="fila"/>
+        </methods>
+      </class> <!-- Shoes.Fila -->
+      <class name="Shoes.Adidas">
+        <methods>
+          <include name="adidas"/>
+        </methods>
+      </class> <!-- Shoes.Adidas -->
+      <class name="Bikes.Hero">
+        <methods>
+          <include name="hero"/>
+        </methods>
+      </class> <!-- Bikes.Hero -->
+      <class name="Bikes.Honda">
+        <methods>
+          <include name="honda"/>
+        </methods>
+      </class> <!-- Bikes.Honda -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
